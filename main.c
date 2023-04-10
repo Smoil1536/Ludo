@@ -368,6 +368,7 @@ int main(void)
         chance++;
         wprintf(L"\e[0;0H");
     }
+    free(coordinates);
     system("cls || clear");
     PRINTBOARD();
     wprintf(L"\n┌─────────────────┐");
